@@ -1,0 +1,181 @@
+.navbar.navbar-default{
+	background:rgba(255,255,255,0);
+	border-color: rgba(255,255,255,0);
+	height: 100px;
+}
+.jumbotron{
+	margin-top: 180px;
+	background:rgba(255,255,255,0);
+	border-color: rgba(255,255,255,0);
+	position:relative;animation:animatebottom 5.4s;
+}
+.navbar {
+    position: fixed;
+    top: 0;
+
+}
+#downArrow{
+	width: 300px;
+	height: 300px;
+}
+#newArrivals{
+	font-size: 50px;
+	color: white;
+		
+}
+#shopping{
+	-webkit-animation-duration: 8s;
+	-moz-animation-duration: 8;
+	-ms-transition-animation-duration: 8s;
+	animation: fadeIn 1s ease-in both;
+}
+#brandName{
+	color:white;
+	font-weight: bolder;
+	font-size: 30px;
+	position:relative;animation:animatetop 5.4s;
+	border:2px solid white;
+}
+.brand {
+
+	padding-top: 50px;
+    position: absolute;
+    left: 50%;
+    margin-left: -150px !important;  /* 50% of your logo width */
+    display: block;
+}
+.parallaxFive {
+
+  padding-bottom: 500px; 
+  position: relative;
+  width: 100%; 
+  background-image: url(../images/IMG_20180728_112527.jpg); 
+  background-attachment: fixed; 
+  background-size: cover;
+  background-repeat: no-repeat; 
+  background-position: top center;
+}
+
+.parallaxTwo {
+  padding-top: 400px; 
+  padding-bottom: 50px; 
+  position: relative;
+  width: 100%; 
+  background-image: url(../images/IMG_20180728_112553.jpg); 
+  background-attachment: fixed; 
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-position: top center;
+  color: white;
+}
+#itemsDisplay{
+	color: white
+	border:1px solid #333;
+	background-color: rgba(255,255,255,0);
+	border-radius:5px;
+}
+.itemInfo{
+	color: white;
+}
+.submitBtn {
+	color: white;
+    background-color: rgba(255,255,255,0);
+    transition-duration: 0.4s;
+}
+
+.submitBtn:hover {
+    background-color: #5277d3;
+    color: white;
+}
+.cartBtn {
+	margin-left: 650px !important;
+	margin-top: 10px;
+	color: white;
+    background-color: rgba(255,255,255,0);
+    transition-duration: 0.4s;
+}
+
+.cartBtn:hover {
+    background-color: green;
+    color: white;
+}
+#checkout_auth {
+	font-weight: bold;
+	margin-top: 10px;
+	color: white;
+    background-color: rgba(255,255,255,0);
+    transition-duration: 0.4s;
+}
+
+#checkout_auth:hover {
+    background-color: green;
+    color: white;
+}
+#itemRow{
+	padding-top: 10px;
+}
+.parallaxSix {
+  height: 100%; 
+  
+  position: relative;
+  width: 100%; 
+  background-image: url(../images/IMG_20180728_134943.jpg); 
+  background-attachment: fixed; 
+  background-size: 2000px;
+  background-repeat: no-repeat; 
+  background-position: top center;
+}
+.parallaxCheckout {
+  height: 100%; 
+  overflow: hidden;
+  position: fixed;
+  width: 100%; 
+  background-image: url(../images/IMG_20180728_142802.jpg); 
+  background-attachment: fixed; 
+  background-size: cover;
+  background-repeat: no-repeat; 
+  background-position: top center;
+}
+#shoppingCartTable{
+	margin-top: 120px;
+}
+#total_price{
+	color:white;
+	text-align: left;
+	margin-left: -865px;
+}
+.center {
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+}
+#totalRow{
+	color:white;
+}
+
+@keyframes animatebottom
+{
+	from
+	{
+		bottom:-300px;
+		opacity:0;
+	} 
+	to
+	{
+		bottom:0;
+		opacity:1
+	}
+}
+@keyframes animatetop
+{
+	from
+	{
+		top:-300px;
+		opacity:0;
+	} 
+	to
+	{
+		top:0;
+		opacity:1;
+	}
+}
